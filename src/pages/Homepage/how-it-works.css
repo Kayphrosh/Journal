@@ -1,0 +1,60 @@
+.how-it-works-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 120px;
+}
+
+.how-it-works-container header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    max-width: 850px;
+}
+.how-it-works-container header h3 {
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+.how-it-works {
+    display: flex;
+    column-gap: 2rem;
+    margin-top: 4rem;
+}
+.how-it-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border:1px solid #4061A2;
+    border-radius: 5px;
+    color: #333;
+    height: 400px;
+    padding: 2rem 1.5rem;
+}
+.how-it-work img {
+    fill: white;
+}
+.how-it-work h6 {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    color: #FFF;
+    margin-top: 2rem;
+}
+.how-it-work p {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #f2f2f2;
+    margin-top: 1.5rem;
+}

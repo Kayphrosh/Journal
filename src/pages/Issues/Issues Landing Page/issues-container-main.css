@@ -1,0 +1,48 @@
+.issues-container-main {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 120px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.issues-container-main header {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+}
+.issues-container-main header h4 {
+    font-family: 'League Gothic';
+    font-size: 42px;
+    color: #333;
+    letter-spacing: 0.03em;
+}
+.issues-container-main header button {
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid #333;
+}
+
+.all-issues-container {
+    margin-top: 3rem;
+}
+
+.all-issues h5{
+    color: #333;
+}
+.all-issues p {
+    color: #555;
+}
+.all-issues small {
+    color: #555;
+}
+
+@media screen and (max-width: 786px) {
+    .issues-container-main {
+        padding: 4rem 1rem;
+    }
+    .issues-container-main header h4 {
+        font-size: 36px;
+    }
+}

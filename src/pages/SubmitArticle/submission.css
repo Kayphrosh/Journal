@@ -1,0 +1,282 @@
+.submission {
+    background: #FFF;
+}
+.submission-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 350px; */
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.701);
+    background-image: url(../../Images/submission-bg.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    
+}
+.submission-header-container h2 {
+    font-size: 48px;
+    color: #FFF;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+      -webkit-transform: translateY(0);
+    }
+    50% {
+      -webkit-transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+    }
+  }
+  @-moz-keyframes scroll {
+    0% {
+      -moz-transform: translateY(0);
+    }
+    50% {
+      -moz-transform: translateY(10px);
+    }
+    100% {
+      -moz-transform: translateY(0);
+    }
+  }
+  @keyframes scroll {
+    0% {
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0);
+    }
+    50% {
+      -webkit-transform: translateY(10px);
+      -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+      -o-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+
+.center-it {
+    margin-top: 2rem;
+  }
+  
+  .caption {
+    margin-top: 10px;
+  }
+  
+  .mouse {
+    display: inline-block;
+    height: 44px;
+    width: 28px;
+    border-radius: 12px;
+    border: 2px solid #BEBCBC;
+    text-align: center;
+  }
+  .mouse:after {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: #BEBCBC;
+    border-radius: 50%;
+    content: "";
+    -webkit-animation: scroll 1.3s ease-out infinite forwards;
+    -moz-animation: scroll 1.3s ease-out infinite forwards;
+    animation: scroll 1.3s ease-out infinite forwards;
+  }
+
+
+
+.submission-main-container {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 120px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 6rem auto;
+}
+
+.submission-tab {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-evenly; */
+    column-gap: 1rem;
+    align-items: center;
+    padding:12px 24px;
+    /* height: 120px; */
+    background: rgba(97, 110, 136, 0.11);
+    border-radius: 10px;
+}
+.submission-tab li {
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    padding: 12px 2rem;
+    color: #333333;
+    cursor: pointer;
+}
+.active-tab,
+.submission-tab li:hover {
+    color: #FFF !important;
+    padding:12px 2rem;
+    background: #083387;
+    border-radius: 5px;
+    transition: all 0.4s linear;
+}
+.active-tab {
+    margin-right: 12px;
+}
+
+.submission-container {
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    margin: 3rem 0;
+}
+.submission-guidelines-container {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s linear;
+}
+.submission-guidelines-container article {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+.submission-deadline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.submission-deadline h6 {
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    color: #111111;
+    margin-bottom: 1rem;
+}
+.submission-deadline li {
+    list-style: square;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+.submission-cta {
+    display: flex;
+    column-gap: 2rem;
+    margin-top: 3rem;
+}
+.submission-cta button {
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.submission-cta button:nth-child(1){
+    background: none;
+    color: #ca5959;
+}
+.submission-cta button:nth-child(2){
+    width: 200px;
+    padding: .5rem 2rem;
+    background: #083387;
+    color: #FFF;
+    border-radius: 10px;
+
+}
+
+
+.submission-form  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1400px;
+}
+.submission-form div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+}
+.full-name {
+    display: flex;
+    flex-direction: row !important;
+    column-gap: 2rem;
+}
+.full-name span {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+}
+.submission-form label {
+  font-size: 14px;
+  font-weight: 500;
+}
+.submission-form input,
+.submission-form textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 56px;
+    border: 1.5px solid #083387;
+    outline: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: 'Encode Sans';
+    font-size: 16px;
+    resize: none;
+}
+.upload-article {
+    display: flex;
+    flex-direction: row !important;
+}
+.upload-article input{
+    border: none;
+}
+
+
+@media screen and (max-width:786px) {
+  .submission-header-container {
+    text-align: center;
+    padding: 1rem;
+  }
+  .submission-header-container h2 {
+    font-size: 42px;
+  }
+}

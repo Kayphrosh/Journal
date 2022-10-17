@@ -1,0 +1,64 @@
+body.publication-ethics-container {
+    background: #FFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.publication-ethics-container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  4rem 0;
+}
+.publication-ethics-container header h3 {
+    color: #1a1a1a;
+    font-family: 'League Gothic';
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.publication-ethics {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    color: #333;
+}
+.publication-ethics article {
+    border-top: 1px solid #1a1a1a3b;
+    padding-top: 1rem;
+}
+.publication-ethics article h4 {
+    margin-bottom: 1rem;
+    font-size: 28px;
+}
+.publication-ethics article p {
+    line-height: 28px;
+    color: #555;
+}
+
+@media screen and (max-width: 786px) {
+    /* body.publication-ethics-container {
+        padding: 1rem;
+    } */
+    .publication-ethics-container header {
+        align-items: flex-start;
+        justify-content: left;
+        margin: 3rem;
+        padding: 0 1rem ;
+    }
+    .publication-ethics-container header h3 {
+        text-align: left;
+        font-size: 56px;
+    }
+    .publication-ethics {
+        padding: 0 1rem;
+    }
+}

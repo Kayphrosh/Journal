@@ -1,0 +1,89 @@
+body.issues-page-container {
+    background: #FFF;
+}
+
+.issues-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    margin-bottom: 0;
+    /* border-bottom: 1px solid #1a1a1a54; */
+    padding-bottom: 4rem;
+}
+
+.issues-header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.issues-header-text h2 {
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    color: #1a1a1a;
+}
+.issues-header-text p {
+    margin-top: .5rem;
+    color: #333;
+    line-height: 28px;
+    font-size: 18px;
+    max-width: 700px;
+}
+
+.issue-search-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 800px;
+}
+.issue-search-form input {
+    background: #FFF;
+    width: 100%;
+    padding: 1.5rem;
+    padding-right: 4rem;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #271ea245;
+    box-shadow: rgba(96, 96, 96, 0.15) 1.95px 1.95px 2.6px;
+ 
+}
+.issue-search-form input:focus,
+.issue-search-form input:hover {
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.4s ease-in-out;
+}
+.issue-search-form .iconify {
+    color: #1a1a1a;
+    position: absolute;
+    right: 1.5rem;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 786px) {
+    .issues-header-container {
+        padding:  01rem;
+    }
+    .issues-header-text h2 {
+        line-height: 60px;
+        font-size: 56px;
+    }
+    .issues-header-text p {
+        font-size: 16px;
+    }
+    .issue-search-form {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}

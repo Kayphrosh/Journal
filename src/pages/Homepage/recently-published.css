@@ -1,0 +1,125 @@
+.recently-published-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 120px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.recently-published-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recently-published-container header h4{
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.recently-published-container header a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #F7C948;
+}
+
+.recently-published {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.recently-published article {
+    display: flex;
+    border-top: 1px solid#4061A2;
+    align-items: center;
+    justify-content: center;
+}
+.recently-published article:last-child {
+    border-bottom: 1px solid#4061A2 !important;
+}
+.issue-thumbmail {
+    padding: 2rem;
+    padding-left: 0;
+    width: 100%;
+    max-width: 450px;
+}
+.issue-thumbmail img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height:200px;
+}
+
+.issue-preview-text {
+    padding: 2rem;
+    padding-right: 0;
+    border-left: 1px solid#4061A2;
+}
+
+.issue-preview-text h5 {
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    text-transform: capitalize;
+    color: #F0F0F0;
+
+}
+.issue-preview-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F0F0F0;
+    margin-top: 1rem;
+}
+
+.issue-cta {
+    display: flex;
+    column-gap: .5rem;
+    margin-top: 1.5rem;
+    align-items: center ;
+}
+.issue-cta small {
+    font-size: 14px;
+    color: #F0F0F0;
+}
+.issue-cta a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ba0f0f;
+    font-size: 14px;
+    border-left: 1px solid #F0F0F0;
+    padding-left: .5rem;
+}
+
+
+@media screen and (max-width: 786px) {
+    .recently-published-container { 
+        padding: 6rem 1rem;
+    }
+    .recently-published {
+        row-gap: 2.5rem;
+    }
+    .recently-published article {
+        flex-direction: column;
+        border: none;
+    }
+    .recently-published article:last-child {
+        border-bottom: none !important;
+    }
+    .recently-published article h5{
+        font-size: 28px;
+        margin-top: 1rem;
+    }
+    .issue-thumbmail {
+        padding: 0;
+    }
+    .issue-preview-text {
+        padding: 0;
+        border: none;
+    }
+}

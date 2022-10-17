@@ -1,13 +1,25 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700;800&family=League+Gothic&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-image: url(./Images/Group\ 4.svg);
+  background-color: #082471;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 100%;
+  /* width: 100%; */
 }

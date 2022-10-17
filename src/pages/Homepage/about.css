@@ -1,0 +1,30 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6rem 150px;
+    padding-top: 0;
+    width:100%;
+}
+.about-img {
+    /* width: 100%; */
+    flex-basis: 50%;
+}
+.about-img img {
+    max-width: 500px;
+}
+.about-content {
+    /* width: 100%; */
+    flex-basis: 50%;
+}
+.about-content article {
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+color: #F0F0F0;
+}
