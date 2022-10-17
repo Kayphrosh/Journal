@@ -6,10 +6,10 @@ import Footer from '../../components/Footer/Footer';
 import './submission.css';
 
 const SubmissionContainer = ({ activeStep }) => {
-  let index = 0;
-  const tab = (e) => {
-    activeStep(index);
-  };
+  // let index = 0;
+  // const tab = (e) => {
+  //   activeStep(index);
+  // };
   // const toggleTab = (index) => {
   //   setToggleState(index);
   // };
