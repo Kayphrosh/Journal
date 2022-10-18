@@ -10,6 +10,9 @@
 li {
   list-style: none;
 }
+button {
+  cursor: pointer;
+}
 
 body {
   font-family: 'Encode Sans', sans-serif;

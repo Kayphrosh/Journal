@@ -26,7 +26,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(47%, 1fr));
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
     column-gap: 2rem;
     row-gap: 2rem;
 }
@@ -82,4 +82,23 @@
     max-height: 999px;
     transition: all 0.3s linear;
     transform: translateY(0);
+}
+@media (max-width: 986px) {
+    .faq-container {
+        padding: 6rem 1.5rem;
+    }
+}
+@media (max-width: 786px) {
+    .faq-container {
+        padding: 6rem 1rem;
+    }
+    .faq-container header h4 {
+        font-size: 42px;
+    }
+    .faq-question h5 {
+        font-size: 24px;
+    }
+    .faq {
+        padding: 1rem;
+    }
 }

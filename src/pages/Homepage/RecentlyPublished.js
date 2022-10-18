@@ -8,7 +8,7 @@ const RecentlyPublished = () => {
       issueTitle:
         'Our aim is to grow a space for the law profession to publish articles easily.',
       issuePreviewText:
-        'Rhoncus enim blandit et eget lorem aiquam mattis nisi. Volutpat quis lacus id enim, sagittis magna tortor. In diam integer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rncus enim blandit et eget lorem.Rhoncus enim blandit et eget lorem aiquam mattis nisi. Volutpat quis lacus id enim, sagittis magna tortor. In diam integer.',
+        'Rhoncus enim blandit et eget lorem aiquam mattis nisi. Volutpat quis lacus id enim, sagittis magna tortor. In diam integer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rncus enim blandit et eget lorem.Rhoncus enim blandit et eget lorem aiquam mattis nisi.',
       authorName: 'Mr. Nwanko',
       issueLink: 'read link',
     },
@@ -17,7 +17,7 @@ const RecentlyPublished = () => {
       issueTitle:
         'Our aim is to grow a space for the law profession to publish articles easily.',
       issuePreviewText:
-        'Rhoncus enim blandit et eget lorem aiquam mattis nisi. Volutpat quis lacus id enim, sagittis magna tortor. In diam integer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rncus enim blandit et eget lorem.Rhoncus enim blandit et eget lorem aiquam mattis nisi. Volutpat quis lacus id enim, sagittis magna tortor. In diam integer.',
+        'Rhoncus enim blandit et eget lorem aiquam mattis nisi. Volutpat quis lacus id enim, sagittis magna tortor. In diam integer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rncus enim blandit et eget lorem.Rhoncus enim blandit et eget lorem aiquam mattis nisi.',
       authorName: 'Mr. Nwanko',
       issueLink: 'read link',
     },
@@ -26,7 +26,7 @@ const RecentlyPublished = () => {
       issueTitle:
         'Our aim is to grow a space for the law profession to publish articles easily.',
       issuePreviewText:
-        'Rhoncus enim blandit et eget lorem aiquam mattis nisi. Volutpat quis lacus id enim, sagittis magna tortor. In diam integer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rncus enim blandit et eget lorem.Rhoncus enim blandit et eget lorem aiquam mattis nisi. Volutpat quis lacus id enim, sagittis magna tortor. In diam integer.',
+        'Rhoncus enim blandit et eget lorem aiquam mattis nisi. Volutpat quis lacus id enim, sagittis magna tortor. In diam integer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rncus enim blandit et eget lorem.Rhoncus enim blandit et eget lorem aiquam mattis nisi.',
       authorName: 'Mr. Nwanko',
       issueLink: 'read link',
     },

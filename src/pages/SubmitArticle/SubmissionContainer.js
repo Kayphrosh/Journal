@@ -22,12 +22,7 @@ const SubmissionContainer = ({ activeStep }) => {
         <section className="submission-main-container">
           <nav className="submission-tab">
             <li
-              // className={
-              //   toggleState === 1
-              //     ? 'submission-tab active-tab'
-              //     : 'submission-tabs'
-              // }
-              // onClick={() => toggleTab(1)}
+            className='active-tab'
             >
               Submission Guidlines
             </li>

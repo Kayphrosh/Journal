@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 import Heroe from './Heroe'
 import HowItWorks from './HowItWorks'
 // import About from './About'
@@ -6,7 +7,10 @@ import RecentlyPublished from './RecentlyPublished'
 import Faq from './Faq'
 import Newsletter from './Newsletter'
 import Footer from '../../components/Footer/Footer'
+
+// import Navbar from '../../components/Navbar/Navbar';
 const HomePage = () => {
+
   return (
     <>
     <Heroe /> 

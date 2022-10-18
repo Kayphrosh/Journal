@@ -11,20 +11,32 @@
 
 .nav-links {
     display: flex;
+
     justify-content: space-between;
     width: 100%;
     max-width: 240px;
+}
+.nav-links li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
 }
 .hamburger {
     display: none;
 }
 
-@media  (max-width: 780px) {
+@media  (max-width: 986px) {
     .navbar {
         padding: 1rem 24px;
     }
 }
-@media  (max-width: 780px) {
+@media  (max-width: 786px) {
     .navbar {
         padding: 1rem;
     }

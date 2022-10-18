@@ -55,3 +55,9 @@
     outline: none;
     color: #FFF;
 }
+
+@media (max-width: 786px) {
+    .newsletter-container {
+        padding: 6rem 1rem;
+    }
+}
