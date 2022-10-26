@@ -29,6 +29,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
+    color: #FFF;
     line-height: 86px;
     text-align: center;
 
@@ -46,6 +47,7 @@
     column-gap: 1rem;
     margin-top: 2rem;
     width: 100%;
+    max-width: 500px;
 }
 .heroe-cta button {
     font-family: 'Encode Sans', sans-serif;
@@ -53,14 +55,14 @@
     justify-content: center;
     align-items: center;
     flex-basis: 50%;
-    height: 55px;
+    height: 60px;
     /* padding: .8em 3rem; */
-    background: #083387;
+    background: #017aff;
     color: #F0F0F0;
     white-space: nowrap;
     font-size: 16px;
     font-weight: 400;
-    border: 1px solid #083387;
+    border: 1px solid #017aff;
     border-radius: 5px;
 }
 .heroe-cta button:nth-child(2) {

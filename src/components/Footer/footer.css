@@ -3,7 +3,8 @@
     flex-direction: column;
     padding: 6rem 120px;
     padding-bottom: 2rem;
-    background: #083387;
+    background: #1a1a1a;
+    color: #FFF;
 }
 .footer-container main {
     display: flex;

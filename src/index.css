@@ -17,9 +17,11 @@ button {
 body {
   font-family: 'Encode Sans', sans-serif;
   font-size: 16px;
-  color: #FFFFFF;
+
+  background: #FFF;
+  color: #1a1a1a;
   background-image: url(./Images/Group\ 4.svg);
-  background-color: #082471;
+  /* background-color: #082471; */
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;

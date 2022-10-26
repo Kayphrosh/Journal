@@ -15,7 +15,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
-    color: #FFFFFF;
+    color: #1a1a1a;
 }
 /* .faq-container header p {
 
@@ -34,7 +34,7 @@
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 .faq .faq-question {
@@ -48,7 +48,7 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 43px;
-    color: #EFF0F6;
+    color: #1a1a1a;
     font-stretch: 84;
 }
 .faq-question button {
@@ -57,7 +57,7 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    background: #2D4576;
+    background: #017aff;
     border-radius: 50px;
     border: none;
     outline: none;
@@ -73,7 +73,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 28px;
-    color: #F0F0F0;
+    color: #1a1a1a;
     max-height: 0px;
 }
 .faq-answer.shows {
